@@ -1,0 +1,34 @@
+COS225
+Assignment 04
+2019/02/22
+Christian Doiron
+
+01) 
+public static <T> Object peek2 (ArrayStack<T> stack)
+{
+	T x = null;
+	try
+	{
+		T temp = stack.pop();
+		x = stack.peek();
+		stack.push(temp);
+	}
+	catch (EmptyCollectionException e)
+	{
+		x = null;
+	}
+	return x;
+}
+
+02) 
+Size is 3
+Top holds 50
+Item is 10
+Item is 80
+Item is 50
+Item is 40
+Item is 20
+Size is 0
+
+
+03) Lines B, D, F, and O are all invalid.
