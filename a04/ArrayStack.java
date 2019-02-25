@@ -1,3 +1,9 @@
+//COS255
+//Assignment 04
+//2019-02-22
+//Christian Doiron
+package assignment04_2;
+
 public class ArrayStack<T> implements Stack<T> {
 
 	private int capacity;							// capacity of array
