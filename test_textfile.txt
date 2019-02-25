@@ -1,5 +1,5 @@
-This is a test file. Hello, Github!
+This is a test file. Hello, Internet!
 
 
 
-This file has been changed.
+This file has been modified for the better.
